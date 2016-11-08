@@ -1,0 +1,8 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 16px/1.4 arial, sans-serif;
+    color: #444;
+}
