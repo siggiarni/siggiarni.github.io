@@ -1,33 +1,13 @@
-:root {
-    --base-color: #000;
-    --base-fontsize: 16px;
-    --base-fontfamily: arial;
+html {
+    height: 100%;
+    font-size: 16px;
 }
 
 body {
-    font-family: arial, 'sans-serif';
-    font-size: var(--base-fontsize);
-    /*text-transform: uppercase;*/
-}
-
-body {
-    position: relative;
-    color: #222;
-    padding: 0;
+    height: 100%;
     margin: 0;
-    font-family: "Akkurat",Helvetica,Arial,sans-serif;
-    font-weight: normal;
-    cursor: default;
-    font-style: normal;
-    line-height: 1;
-    background: #fff;
-}
-
-a:hover {
-    cursor: pointer
-}
-
-a:focus {
-    outline: none;
+    display: grid;
+    place-content: center;
     color: red;
+    font-size: 10rem;
 }
