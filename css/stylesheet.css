@@ -10,6 +10,7 @@ body {
     place-content: center;
     color: red;
     font-size: 2rem;
+    font-family: 'Comic Sans MS', sans-serif;
 }
 
 @media screen and (min-width: 1025px) {
