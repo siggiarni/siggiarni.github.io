@@ -12,7 +12,7 @@ body {
     font-size: 2rem;
 }
 
-@media screen and (min-width: 60rem) {
+@media screen and (min-width: 1025px) {
     body {
         font-size: 10rem;
     }
