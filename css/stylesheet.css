@@ -11,6 +11,5 @@ body {
     color: white;
     font-size: 2rem;
     font-family: helvetica, sans-serif;
-    background-color: darkslateblue;
-    background-image: linear-gradient(deepskyblue, darkslateblue);
+    background: conic-gradient(from 90deg at bottom left, cyan, rebeccapurple);
 }
