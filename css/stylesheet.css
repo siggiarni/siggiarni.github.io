@@ -4,8 +4,6 @@ html {
 
 body {
     --fontcolor: Lavender;
-    --textshadow1: purple;
-    --textshadow2: cyan;
     --theme1: cyan;
     --theme2: rebeccapurple;
     height: 100%;
@@ -15,7 +13,6 @@ body {
     color: var(--fontcolor);
     font-size: 2rem;
     font-family: helvetica, sans-serif;
-    text-shadow: 0 2px 30px var(--textshadow1), 0 -2px 130px var(--textshadow2);
     background: conic-gradient(
         from 90deg at bottom left,
         var(--theme1),
@@ -25,8 +22,6 @@ body {
 
 @media (prefers-color-scheme: dark) {
     body {
-        --textshadow1: darkslateblue;
-        --textshadow2: darkcyan;
         --theme1: darkcyan;
         --theme2: darkslateblue;
     }
